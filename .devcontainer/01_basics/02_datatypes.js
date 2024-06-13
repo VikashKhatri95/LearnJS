@@ -18,5 +18,24 @@ let myobj={
 const myfun=function () {
     // console.log("Hello World");//function
 }
-console.log(typeof myfun);
+// console.log(typeof myfun);
 // console.log(typeof myobj);//object
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive),Heap(Non Primitive)
+
+let myname="Vikash"
+let anothername=myname
+// console.log(anothername);
+anothername="Vickey"
+// console.log(myname);
+// console.log(anothername);
+
+let user1={
+    name:"vikash",
+    email:"vikash@krishmark.com"
+}
+let user2=user1
+console.log(user2.email);
+user2.email="mcastudent@gmail.com"
+console.log(user1.email);
